@@ -1,7 +1,3 @@
-"""
-    https://github.com/TotalAwesome/BotFarmFactory
-    https://t.me/CryptoAutoFarm
-"""
 
 from time import sleep
 from random import random, shuffle

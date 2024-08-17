@@ -9,7 +9,7 @@ from bots.iceberg.strings import HEADERS, URL_BALANCE, URL_FARMING, URL_INIT, \
 class BotFarmer(BaseFarmer):
     name = "icebergappbot"
     info = {}
-    extra_code = "referral_102796269"
+    extra_code = None
     initialization_data = dict(peer=name, bot=name, url=URL_INIT)
     payload_base = {}
 

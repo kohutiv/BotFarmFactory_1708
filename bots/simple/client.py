@@ -20,7 +20,7 @@ class BotFarmer(BaseFarmer):
     upgrades = {}
     info = {}
     freezed_balance = None
-    extra_code = "1718085881160"
+    extra_code = None
 
     def freeze_balance(self):
         self.freezed_balance = self.info['balance']

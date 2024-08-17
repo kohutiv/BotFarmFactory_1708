@@ -9,7 +9,7 @@ class BotFarmer(BaseFarmer):
 
     name = 'anonearnbot'
     info = {}
-    app_extra = 'iDb64mAALgfaXGj8gTCDZ1'
+    app_extra = None
     payload_base = {}
     codes_to_refresh = (403,)
     refreshable_token = True

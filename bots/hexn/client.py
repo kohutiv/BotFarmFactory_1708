@@ -23,7 +23,7 @@ class BotFarmer(BaseFarmer):
     balance = None
     end_time = None
     farming_data = None
-    referral = 'tgWebAppStartParam=63b093b0-fcb8-41b5-8f50-bc61983ef4e3'
+    referral = '781604267'
     initialization_data = dict(peer=name, bot=name, url=URL_INIT, start_param=referral)
 
     def set_headers(self, *args, **kwargs):

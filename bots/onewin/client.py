@@ -26,7 +26,7 @@ class BotFarmer(BaseFarmer):
     name = "token1win_bot"
     auth_data = None
     token = None
-    extra_code = "refId6370423806"
+    extra_code = None
     friends_coins = 0
     friends = 0
 

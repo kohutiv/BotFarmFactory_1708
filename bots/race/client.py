@@ -9,7 +9,7 @@ from .strings import HEADERS, URL_DRIVE, URL_INFO, URL_INIT, MSG_BALANCE, URL_RE
 
 class BotFarmer(BaseFarmer):
     name = "racememe_bot"
-    extra_code = "r_102796269"
+    extra_code = None
     init_data = None
     riding_thread = None
     debug = False

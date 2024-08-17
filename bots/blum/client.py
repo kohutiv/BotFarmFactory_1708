@@ -18,7 +18,7 @@ DEFAULT_EST_TIME = 60
 class BotFarmer(BaseFarmer):
 
     name = "BlumCryptoBot"
-    app_extra = "ref_ItXoLRFElL"
+    app_extra = None
     balance = None
     balance_data = None
     play_passes = None

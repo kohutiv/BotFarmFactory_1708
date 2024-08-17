@@ -8,7 +8,7 @@ class BotFarmer(BaseFarmer):
 
     name = 'timetonbot'
     info = {}
-    extra_code = "TotalAwesome"
+    extra_code = None
     initialization_data = dict(peer=name, bot=name, url=URL_INIT)
     payload_base = {}
 

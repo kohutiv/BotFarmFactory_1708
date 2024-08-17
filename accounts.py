@@ -1,7 +1,8 @@
 TELEGRAM_ACCOUNTS = [
-    dict(phone='+99999999999', proxy="http://user:pass@host:port"),
-    dict(phone='+99999999991', proxy="https://user:pass@host:port"),
-    dict(phone='+55555555544'),
+    dict(phone='+380982575987', proxy="http://144.76.120.202:3128"),
+    dict(phone='+380974907186', proxy="http://185.233.37.108:3128"),
+    dict(phone='+380982575986'),
+    dict(phone='+380969528058'),
 ]
 
 try:

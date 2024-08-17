@@ -14,8 +14,22 @@ DEBUG = True
 RETRY_ATTEMPTS = 3
 
 ENABLED_BOTS = [
-    # Пустой список = все боты включены
-    # иначе будут работать только те, что в этом списке
+    'cell',
+    'anon',
+    'blum',
+    'timeton',
+    'simple',
+    'iceberg',
+    #'hamster_kombat',
+    'zavod',
+    'tapcoins',
+    'hexn',
+    'onewin',
+    'race',
+    'altooshka',
+    #'dogs',
+    'solstone',
+    'orbitonx'
 ]
 
 SLEEP_AT_NIGHT = False  # При True ночью фарминг не производится

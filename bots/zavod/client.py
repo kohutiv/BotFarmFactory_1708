@@ -7,7 +7,7 @@ from bots.zavod.strings import HEADERS, URL_INIT, URL_CALIM, URL_FARM, URL_PROFI
 class BotFarmer(BaseFarmer):
 
     name = 'Mdaowalletbot'
-    extra_code = "102796269"
+    extra_code = None
     info = dict(profile={}, farming={})
     initialization_data = dict(peer=name, bot=name, url=URL_INIT)
     payload_base = {}

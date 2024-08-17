@@ -20,7 +20,7 @@ class BotFarmer(BaseFarmer):
     quests = {}
     tasks = []
     next_claim = None
-    app_extra = "friendId102796269"
+    app_extra = "friendId781604267"
     tokens = {}
     refreshable_token = True
     codes_to_refresh = (401,)

@@ -10,7 +10,7 @@ TELEGRAM_AUTH = dict(
     system_lang_code="en-US",
 )
 
-DEBUG = True
+DEBUG = False
 RETRY_ATTEMPTS = 3
 
 ENABLED_BOTS = [

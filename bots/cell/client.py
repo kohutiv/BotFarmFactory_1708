@@ -14,7 +14,7 @@ class BotFarmer(BaseFarmer):
     info = {}
     levels = {}
     next_claim = None
-    extra_code = None
+    extra_code = ''
 
     @property
     def initialization_data(self):

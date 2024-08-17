@@ -22,7 +22,7 @@ class BotFarmer(BaseFarmer):
     user_id = None
     ref_code = None
     auth_data = None
-    extra_code = None
+    extra_code = ''
     initialization_data = dict(peer=name, bot=name, url=URL_INIT, start_param=extra_code)
 
     def set_headers(self, *args, **kwargs):

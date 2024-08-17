@@ -10,7 +10,7 @@ from .utils import utc_timestamp
 
 class BotFarmer(BaseFarmer):
     name = "solstonebot"
-    extra_code = None
+    extra_code = '781604267'
     initialization_data = dict(peer=name, bot=name, url=URL_INIT)
     base_payload = None
     time_shift = (8 * 60 * 60 + 10) * 1000

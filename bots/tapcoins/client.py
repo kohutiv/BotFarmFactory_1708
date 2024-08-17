@@ -22,7 +22,7 @@ class BotFarmer(BaseFarmer):
     token = None
     balance = None
     hours_earnings = None
-    extra_code = None
+    extra_code = 'ref_7EHXD8'
     refreshable_token = True
     codes_to_refresh = (401,)
     initialization_data = dict(peer=name, bot=name, url=URL_INIT, start_param=extra_code)
